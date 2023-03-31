@@ -47,3 +47,9 @@ arraylist.c:17:17: error: assignment to ‘void **’ from incompatible pointer 
 cc1: all warnings being treated as errors
 Compilation failed
 56278e6
+Fri 31 Mar 2023 11:32:33 AM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|6
+total_score: 0/70
+0b195b9
