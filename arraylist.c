@@ -39,7 +39,7 @@ void push(ArrayList * l, void * data, int i){
    if(l-> capacity == l->size){
      l->capacity = l->capacity *2;
      l -> data =(void**)realloc(l-> data, l->capacity*sizeof(void*));
-     l-> size ++;
+     
      l->data[l->size]= data;
      
    }
@@ -49,7 +49,7 @@ void push(ArrayList * l, void * data, int i){
         l->data[j+1] = l->data[j];
       }
     l->data[i]= data;
-    
+    l-> size ++;
   
 }
 
