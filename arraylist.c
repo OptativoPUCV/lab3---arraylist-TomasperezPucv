@@ -62,7 +62,7 @@ void* get(ArrayList * l, int i){
     }
     
   }
-  return l-> data[i];
+  else return l-> data[i];
   
 }
 
