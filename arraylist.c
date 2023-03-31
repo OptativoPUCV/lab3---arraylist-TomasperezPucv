@@ -28,8 +28,8 @@ void append(ArrayList * l, void * data){
    
   }
   else{
-    l->data[l->size]= data;
-    l-> size ++;
+   /* l->data[l->size]= data;
+    l-> size ++;*/
   }
 }
 
