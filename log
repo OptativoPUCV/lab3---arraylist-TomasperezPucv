@@ -403,3 +403,17 @@ Fri 31 Mar 2023 03:09:42 PM UTC:
  tests:  8|2
 total_score: 40/70
 9b45e9d
+Fri 31 Mar 2023 03:10:13 PM UTC: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:
+arraylist.c: In function ‘pop’:
+arraylist.c:53:20: error: ‘return’ with no value, in function returning non-void [-Werror=return-type]
+   53 |   if(i >= l->size) return;
+      |                    ^~~~~~
+arraylist.c:52:7: note: declared here
+   52 | void* pop(ArrayList * l, int i){
+      |       ^~~
+cc1: all warnings being treated as errors
+Compilation failed
+755697a
