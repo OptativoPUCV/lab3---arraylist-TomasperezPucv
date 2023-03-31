@@ -234,3 +234,8 @@ arraylist.c:17:33: error: ‘*lista.data’ is used uninitialized [-Werror=unini
 cc1: all warnings being treated as errors
 Compilation failed
 0758c8b
+Fri 31 Mar 2023 12:20:57 PM UTC: 
+ arraylist.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|0
+008e2be
