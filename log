@@ -385,3 +385,9 @@ Fri 31 Mar 2023 02:59:11 PM UTC:
  1 file changed, 1 insertion(+), 1 deletion(-)
  tests:  0|0
 9e59936
+Fri 31 Mar 2023 03:00:23 PM UTC: 
+ arraylist.c | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+ tests:  6|3
+total_score: 30/70
+b837a18
