@@ -459,3 +459,13 @@ arraylist.c:59:13: error: unused variable ‘j’ [-Werror=unused-variable]
 cc1: all warnings being treated as errors
 Compilation failed
 a674e43
+Sat 01 Apr 2023 03:00:06 PM UTC: 
+ arraylist.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘pop’:
+arraylist.c:57:12: error: array subscript is not an integer
+   57 |     l->data[l->data] = NULL;
+      |            ^
+Compilation failed
+5fd7d1b
