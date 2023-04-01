@@ -435,3 +435,27 @@ Fri 31 Mar 2023 03:11:21 PM UTC:
  tests:  8|2
 total_score: 40/70
 bfe2186
+Sat 01 Apr 2023 02:59:40 PM UTC: 
+ arraylist.c | 16 ++++++++++++++--
+ 1 file changed, 14 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+arraylist.c: In function ‘pop’:
+arraylist.c:57:12: error: array subscript is not an integer
+   57 |     l->data[l->data] = NULL;
+      |            ^
+arraylist.c:59:22: error: ‘h’ undeclared (first use in this function)
+   59 |     for(int j = i+1; h<l->size; l++)
+      |                      ^
+arraylist.c:59:22: note: each undeclared identifier is reported only once for each function it appears in
+arraylist.c:61:35: error: expected ‘;’ before ‘}’ token
+   61 |         l-> data[h-1]= l-> data[h]
+      |                                   ^
+      |                                   ;
+   62 |       }
+      |       ~                            
+arraylist.c:59:13: error: unused variable ‘j’ [-Werror=unused-variable]
+   59 |     for(int j = i+1; h<l->size; l++)
+      |             ^
+cc1: all warnings being treated as errors
+Compilation failed
+a674e43
